@@ -3,8 +3,8 @@ const config = require('../config')
 
 // ERC20Token address on root chain
 const token = config.parent.erc20_token
-// approuve amount 10 ERC20 in wei
-const amount = '10000000000000000000'
+// approuve amount 1000 VLD in wei
+const amount = '1000000000000000000000'
 
 
 // excecute function

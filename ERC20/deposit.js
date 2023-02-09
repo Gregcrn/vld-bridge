@@ -2,8 +2,8 @@ const { getFxPortalClient } = require('../utils')
 const config = require('../config')
 
 const token = config.parent.erc20_token
-// amount to deposit in wei (5 ERC20)
-const amountToDeposit = '5000000000000000000'
+// amount to deposit in wei (500 ERC20)
+const amountToDeposit = '500000000000000000000'
 
 async function execute() {
     // initiate fxClient
